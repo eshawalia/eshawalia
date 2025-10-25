@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <title>Home</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
+    
     <body>
         <div class="navbar"> 
-            <h4>Home</h4>
-            <h4>Option 2</h4>
-            <h4>Option 3</h4>
-            <h4>Option 4</h4>
+            <a href="index.html" class="active"><h5>Home</h5></a>
+            <a href="about_me.html"><h5>About Me</h5></a>
+            <a href="family.html"><h5>Family</h5></a>
+            <a href="pets.html"><h5>Pets</h5></a>
+            <a href="education.html"><h5>Education</h5></a>
         </div>
-        <div class="section1">
-            <video autoplay loop><source src="home_video.mp4" type="video/mp4"></video> 
+        
+        <div id="hero">
+            <video muted autoplay loop><source src="home_video.mp4" type="video/mp4"></video> 
             <div class="title">
                 <h1>Hi, I'm Esha!</h1>
                 <h3>This website is all about me. </h3>
             </div>  
         </div>
         
+        <div class="section">
+            <div class="text">
+                <h2>About Me</h2>
+                <h6>Find out about me and my background.</h6>
+                <a href="about_me.html"><h5>Discover</h5></a>
+            </div>
+            <img src="profile_pic.jpg" alt="Esha.">
+        </div>
+        
+        <div class="section reverse">
+            <img src="mom.JPG" alt="A dog.">
+            <div class="text">
+                <h2>Family</h2>
+                <h6>Meet my family members.</h6>
+                <a href="family.html"><h5>Discover</h5></a>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="text">
+                <h2>Pets</h2>
+                <h6>Meet my furry friends.</h6>
+                <a href="pets.html"><h5>Discover</h5></a>
+            </div>
+            <img src="eli.JPG" alt="A dog.">
+        </div>
+        
+        <div class="section reverse">
+            <img src="pratt.jpg" alt="A dog.">
+            <div class="text">
+                <h2>Education</h2>
+                <h6>Find out about my education journey.</h6>
+                <a href="education.html"><h5>Discover</h5></a>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <h6>© Esha Ahluwalia 2025</h6>
+        </div>
     </body>
 </html>
